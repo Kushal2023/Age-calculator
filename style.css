@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4848e7;
+}
+
+#main{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#title{
+    color: blue;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+#input-div{
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+#date-input-div,#month-input-div,#year-input-div{
+    width: 150px;
+}
+
+.date-title,.month-title,.year-title{
+    color: #4848e7;
+    padding-bottom: 10px;
+}
+
+#date-input,#month-input,#year-input{
+    padding: 7px 15px;
+    font-size: 16px;
+    /* border: 1px solid #4848e7; */
+    width: 80%;
+}
+
+#submit-button{
+    font-size: 18px;
+    padding: 7px 20px;
+    cursor: pointer;
+    background-color: #4848e7;
+    color: white;
+    border: 1px solid #4848e7;
+}
+
+#output-div{
+    padding-top: 25px;
+    font-size: 18px;
+}
